@@ -45,7 +45,7 @@ bibliography: paper.bib
 <!-- Growing the GRASS ecosystem: Tutorials for an open source geocomputation engine -->
 <!-- Open learning resources for growing the GRASS ecosystem -->
 
-# Summary
+## Summary
 
 This collection of tutorials is an introduction 
 to the GRASS geospatial processing engine. 
@@ -64,7 +64,7 @@ The tutorials are released under both
 the GNU Free Documentation License v1.2 or later and 
 the Creative Commons Attribution-ShareAlike 4.0 International License.
 
-# Statement of need
+## Statement of need
 
 *Include a Statement of Need section, explaining how the submitted artifacts contribute to computationally enabled teaching and learning, and describing how they might be adopted by others.*
 
@@ -81,7 +81,7 @@ the Creative Commons Attribution-ShareAlike 4.0 International License.
 new tutorials on introductory and advanced topics to encourage community growth and
 new tutorials to demonstrate how the engine can be integrated into data science pipelines.  -->
 
-# Description / Features
+## Description / Features
 
 *Describe the learning objectives, content, instructional design, and experience of use in teaching and learning situations.*
 
@@ -149,7 +149,7 @@ and deployment in workshops.
 |             | Coastal infrastructure                                 | Beginner     | English             |
 |             | Terrain synthesis                                      | Intermediate | English             |
 
-# Story
+## Story
 
 *Tell us the story of the project: how did it come to be?*
 
@@ -157,10 +157,12 @@ Please add to the story!
 
 * Teaching experiences
   * HTML: NCSU Geospatial Modeling (MEAS582/GISXXX) [@Petras:2015]
+  * NCSU Geospatial Modeling (GIS/MEAS 582) [White 2023 - 2025]
+  * NCSU UAS Mapping and Analysis (GIS/MEAS 584) [White 2024-2025]
   * Jupyter: NCSU Geospatial Computing and Simulation (GIS714) [@Haedrich:2023]
 
-# Acknowledgements
+## Acknowledgements
 
 The initial development of these tutorial was partially supported by the U.S. National Science Foundation under Grant [2303651](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2303651).
 
-# References
+## References
