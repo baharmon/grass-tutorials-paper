@@ -1,5 +1,5 @@
 ---
-title: 'GRASS Tutorials'
+title: 'Tutorials for the GRASS geocomputation engine'
 tags:
   - GRASS
 authors:
@@ -41,26 +41,32 @@ bibliography: paper.bib
 
 <!-- ![Figure \label{fig:figure_1}](figure_1.png){ width=100% } -->
 
+<!-- Tutorials for the GRASS geocomputation engine -->
+<!-- Growing the GRASS ecosystem: Tutorials for an open source geocomputation engine -->
+<!-- Open learning resources for growing the GRASS ecosystem -->
+
 # Summary
 
-`Describe the submission and explain its eligibility for JOSE.`
-
-* Overview of GRASS
-  * GRASS as geoprocessing engine [@GRASS]
-    * Features [@Gebbert:2017; @Haedrich:2023]
-    * Integrations
-    * Well documented, but lacking official tutorials
-* GRASS Tutorials
-  * Tutorials with computational notebooks
-    * Integrations
-    * Core features
-    * Thematic topics
-  * Dual licensed GFDL-1.2-or-later & CC-BY-SA-4.0
-  * Audience: GRASS and wider FOSS4G community
+This collection of tutorials is an introduction 
+to the GRASS geospatial processing engine. 
+GRASS is an open source computational engine for 
+spatiotemporal data management, analysis, modeling, and simulation 
+[@GRASS].
+As an engine that can be integrated in data science pipelines 
+with shell scripting, Python, R, and Jupyter,
+there are many ways to use GRASS. 
+While GRASS already had extensive documentation, 
+tutorials were needed to introduce the many ways to interface with GRASS. 
+These open education tutorials - 
+which cover integrations, core features, and disciplinary applications - 
+were developed as part of an effort to grow the GRASS community.
+The tutorials are released under both
+the GNU Free Documentation License v1.2 or later and 
+the Creative Commons Attribution-ShareAlike 4.0 International License.
 
 # Statement of need
 
-`Include a Statement of Need section, explaining how the submitted artifacts contribute to computationally enabled teaching and learning, and describing how they might be adopted by others.`
+*Include a Statement of Need section, explaining how the submitted artifacts contribute to computationally enabled teaching and learning, and describing how they might be adopted by others.*
 
 * Growing the GRASS ecosystem
   * GRASS has extensive documentation, but lacked official tutorials
@@ -71,15 +77,23 @@ bibliography: paper.bib
     * Examples of how to interface with engine needed
       * GUI, CLI, Py, R, Cloud, Jupyter, etc.
 
+<!-- The current roadmap for GRASS calls for 
+new tutorials on introductory and advanced topics to encourage community growth and
+new tutorials to demonstrate how the engine can be integrated into data science pipelines.  -->
 
 # Description / Features
 
-`Describe the learning objectives, content, instructional design, and experience of use in teaching and learning situations.`
+*Describe the learning objectives, content, instructional design, and experience of use in teaching and learning situations.*
 
 ## Learning Objectives
 
-* Learn the fundamentals of geoprocessing with GRASS
-* Learn disciplinary applications of GRASS
+These tutorials were developed to teach
+the fundamentals of geoprocessing with GRASS,
+integrations of GRASS into data science pipelines, 
+and disciplinary applications of GRASS. 
+The tutorials were designed for self-study, 
+integration into courses, 
+and deployment in workshops.
 
 ## Instructional Design
 
@@ -106,61 +120,38 @@ bibliography: paper.bib
 
 ## Contents / Tutorials
 
-* Tutorials
-  * Get started
-    * Get started with GRASS GUI
-    * Get started with GRASS & Python in Jupyter Notebooks
-    * Get started with GRASS & R: the rgrass package
-    * Get started with GRASS in Google Colab
-    * Get started with GRASS in Jupyter Notebooks on Windows
-  * Core features
-    * Basics of map algebra
-    * Making plots with GRASS
-    * Visualizing and Modeling Terrain from DEMs in GRASS (English & Portuguese)
-    * Modeling Movement in GRASS (English & Portuguese)
-    * Introduction to remote sensing with GRASS
-    * Procedural noise
-    * Quick comparison: R and Python GRASS interfaces
-  * Disciplinary topics
-    * Deep dive into time series analysis with GRASS
-      * Introduction to Time Series in GRASS
-      * Temporal aggregations
-      * Temporal algebra
-      * Temporal accumulation
-      * Temporal gap-filling
-      * Temporal query with vector data
-      * Temporal subset, import and export
-    * Earthworks
-      * Basic earthworks
-      * Gully modeling
-      * Coastal infrastructure
-      * Terrain synthesis
+<!-- official collection of tutorials maintained by the GRASS development team -->
+<!-- also a curated collection of external tutorials from the GRASS community -->
 
-* External Tutorials
-  * Physically-based hydrologic modeling using GRASS GIS r.topmodel
-  * GRASS for Remote Sensing data processing with Jupyter Notebooks
-  * Teledetección, OBIA y series de tiempo
-  * GISMentors - GRASS GIS školení
-  * GISMentors - Courses
-  * Unleash the power of GRASS GIS
-  * Deforestation study using GRASS GIS
-  * NCSU Geospatial Modeling and Analysis Course
-  * Urban growth modeling with FUTURES
-  * GIS for Designers
-  * Geoprocessamento com GRASS GIS
-  * OpenGeoHub 2019: GRASS GIS for environmental monitoring and disease ecology applications
-  * Processing lidar and UAV point clouds
-  * Tutoriales de GRASS GIS en grasswiki
-  * Spatio-temporal data handling and visualization
-  * Ecodiv.earth tutorials
-    * Species distribution modeling using Maxent in GRASS
-    * Mapping the distribution of the White-tailed deer in Minnesota
-    * From suitability to suitable regions
-    * Tree species diversity distribution
+| Modules     | Tutorials                                              | Level        | Language            |
+|-------------|--------------------------------------------------------|--------------|---------------------|
+| Get Started | Get started with GRASS GUI                             | Beginner     | English             |
+|             | Get started with GRASS & Python in Jupyter Notebooks   | Beginner     | English             |
+|             | Get started with GRASS in Google Colab                 | Beginner     | English             |
+|             | Get started with GRASS in Jupyter Notebooks on Windows | Beginner     | English             |
+|             | Get started with GRASS & R: the rgrass package         | Advanced     | English             |
+| General     | Basics of map algebra                                  | Beginner     | English             |
+|             | Making plots with GRASS                                | Beginner     | English             |
+|             | Visualizing and modeling terrain from DEMs in GRASS    | Beginner     | English, Portuguese |
+|             | Modeling Movement in GRASS                             | Advanced     | English, Portuguese |
+|             | Introduction to remote sensing with GRASS              | Beginner     | English             |
+|             | Procedural noise                                       | Intermediate | English             |
+|             | Quick comparison: R and Python GRASS interfaces        | Intermediate | English             |
+| Time series | Introduction to time series in GRASS                   | Intermediate | English             |
+|             | Temporal subset, import and export                     | Intermediate | English             |
+|             | Temporal aggregations                                  | Advanced     | English             |
+|             | Temporal algebra                                       | Advanced     | English             |
+|             | Temporal accumulation                                  | Advanced     | English             |
+|             | Temporal gap-filling                                   | Advanced     | English             |
+|             | Temporal query with vector data                        | Advanced     | English             |
+| Earthworks  | Basic earthworks                                       | Beginner     | English             |
+|             | Gully modeling                                         | Beginner     | English             |
+|             | Coastal infrastructure                                 | Beginner     | English             |
+|             | Terrain synthesis                                      | Intermediate | English             |
 
 # Story
 
-`Tell us the story of the project: how did it come to be?`
+*Tell us the story of the project: how did it come to be?*
 
 Please add to the story!
 
