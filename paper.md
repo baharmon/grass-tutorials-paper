@@ -41,10 +41,6 @@ bibliography: paper.bib
 
 <!-- ![Figure \label{fig:figure_1}](figure_1.png){ width=100% } -->
 
-<!-- Tutorials for the GRASS geocomputation engine -->
-<!-- Growing the GRASS ecosystem: Tutorials for an open source geocomputation engine -->
-<!-- Open learning resources for growing the GRASS ecosystem -->
-
 # Summary
 
 This collection of tutorials is an introduction 
@@ -64,7 +60,7 @@ The tutorials are released under both
 the GNU Free Documentation License v1.2 or later and 
 the Creative Commons Attribution-ShareAlike 4.0 International License.
 
-# Statement of need
+# Statement of Need
 
 *Include a Statement of Need section, explaining how the submitted artifacts contribute to computationally enabled teaching and learning, and describing how they might be adopted by others.*
 
@@ -161,6 +157,6 @@ Please add to the story!
 
 # Acknowledgements
 
-The initial development of these tutorial was partially supported by the U.S. National Science Foundation under Grant [2303651](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2303651).
+The initial development of these tutorials was partially supported by the U.S. National Science Foundation under Grant [2303651](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2303651).
 
 # References
