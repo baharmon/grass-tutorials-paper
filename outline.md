@@ -28,6 +28,17 @@
     * Examples of how to interface with engine needed
       * GUI, CLI, Py, R, Cloud, Jupyter, etc.
 
+## Story
+
+*Tell us the story of the project: how did it come to be?*
+
+Please add to the story!
+
+* Teaching experiences
+  * HTML: NCSU Geospatial Modeling (MEAS582/GISXXX) [@Petras:2015]
+  * Jupyter: NCSU Geospatial Computing and Simulation (GIS714) [@Haedrich:2023]
+  * NCSU Geospatial Modeling (GIS/MEAS 582) [White 2023 - 2025]
+  * NCSU UAS Mapping and Analysis (GIS/MEAS 584) [White 2024-2025]
 
 # Description / Features
 
@@ -115,18 +126,6 @@
     * From suitability to suitable regions
     * Tree species diversity distribution
   * OpenPlains Tutorials
-
-# Story
-
-*Tell us the story of the project: how did it come to be?*
-
-Please add to the story!
-
-* Teaching experiences
-  * HTML: NCSU Geospatial Modeling (MEAS582/GISXXX) [@Petras:2015]
-  * Jupyter: NCSU Geospatial Computing and Simulation (GIS714) [@Haedrich:2023]
-  * NCSU Geospatial Modeling (GIS/MEAS 582) [White 2023 - 2025]
-  * NCSU UAS Mapping and Analysis (GIS/MEAS 584) [White 2024-2025]
 
 # Acknowledgements
 
