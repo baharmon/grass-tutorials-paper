@@ -87,7 +87,7 @@ This collection of tutorials was published using Quarto as web documents paired 
 
 This official collection of tutorials is maintained by the GRASS Development Team as part of the documentation for the GRASS geocomputational engine (\autoref{table:core}). This ensures that tutorials undergo rigorous review, tutorials are maintained and updated as GRASS evolves, and issues are promptly addressed. The website also includes a curated collection of community contributed tutorials that are hosted on external websites and maintained by their creators (\autoref{table:community}). 
 
-Official GRASS tutorials \label{table:core}
+: Official GRASS tutorials \label{table:core}
 
 | Modules     | Tutorials                                              | Level        | Language            |
 |-------------|--------------------------------------------------------|--------------|---------------------|
@@ -115,7 +115,7 @@ Official GRASS tutorials \label{table:core}
 |             | Coastal infrastructure                                 | Beginner     | English             |
 |             | Terrain synthesis                                      | Intermediate | English             |
 
-Community contributed tutorials \label{table:community}
+: Community contributed tutorials \label{table:community}
 | Modules | Tutorials | No. | Level    | Language |
 |---------|-----------|-----|----------|----------|
 | ...     | ...       | ... | ...      | ...      |
