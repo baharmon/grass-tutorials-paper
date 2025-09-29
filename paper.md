@@ -116,21 +116,10 @@ This official collection of tutorials is maintained by the GRASS Development Tea
 |             | Terrain synthesis                                      | Intermediate | English             |
 
 : Community contributed tutorials \label{table:community}
+
 | Modules | Tutorials | No. | Level    | Language |
 |---------|-----------|-----|----------|----------|
 | ...     | ...       | ... | ...      | ...      |
-
-## Story
-
-*Tell us the story of the project: how did it come to be?*
-
-Please add to the story!
-
-* Teaching experiences
-  * HTML: NCSU Geospatial Modeling (MEAS582/GISXXX) [@Petras:2015]
-  * NCSU Geospatial Modeling (GIS/MEAS 582) [White 2023 - 2025]
-  * NCSU UAS Mapping and Analysis (GIS/MEAS 584) [White 2024-2025]
-  * Jupyter: NCSU Geospatial Computing and Simulation (GIS714) [@Haedrich:2023]
 
 ## Acknowledgements
 
