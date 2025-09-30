@@ -118,23 +118,23 @@ This official collection of tutorials is maintained by the GRASS Development Tea
 
 : Community contributed tutorials \label{table:community}
 
-| Modules | Tutorials | No. | Level | Language |
-|---|---|---|---|---|
-| Integrations | Unleash the power of GRASS GIS | 5 | Beginner - Advanced | En |
-|  | GRASS for Remote Sensing data processing with Jupyter Notebooks | 1 | Advanced | En |
-| Core | NCSU Geospatial Modeling and Analysis Course | 13 | Beginner - Intermediate | En |
-|  | Geoprocessamento com GRASS GIS | 1 | Beginner - Intermediate | Pt |
-|  | Tutoriales de GRASS GIS en grasswiki | 4 | Beginner - Intermediate | Es |
-|  | GISMentors | 30 | Beginner - Advanced | En & Cs |
-| Disciplinary | Deforestation study using GRASS GIS | 1 | Beginner | En |
-|  | Teledetección, OBIA y series de tiempo | 5 | Beginner - Intermediate | Es |
-|  | GIS for Designers | 12 | Beginner - Intermediate | En |
-|  | GRASS GIS for environmental monitoring and disease ecology applications | 2 | Beginner - Intermediate | En |
-|  | Processing lidar and UAV point clouds | 1 | Beginner - Intermediate | En |
-|  | Physically-based hydrologic modeling using GRASS GIS r.topmodel | 1 | Intermediate | En |
-|  | Spatio-temporal data handling and visualization | 1 | Intermediate | En |
-|  | Ecodiv.earth tutorials | 16 | Beginner - Advanced | En |
-|  | Urban growth modeling with FUTURES | 1 | Advanced | En |
+| Modules      | Tutorials                                                               | No. | Level                   | Language |
+|--------------|-------------------------------------------------------------------------|-----|-------------------------|----------|
+| Integrations | Unleash the power of GRASS GIS                                          | 5   | Beginner - Advanced     | En       |
+|              | GRASS for Remote Sensing data processing with Jupyter Notebooks         | 1   | Advanced                | En       |
+| Core         | NCSU Geospatial Modeling and Analysis Course                            | 13  | Beginner - Intermediate | En       |
+|              | Geoprocessamento com GRASS GIS                                          | 1   | Beginner - Intermediate | Pt       |
+|              | Tutoriales de GRASS GIS en grasswiki                                    | 4   | Beginner - Intermediate | Es       |
+|              | GISMentors                                                              | 30  | Beginner - Advanced     | En & Cs  |
+| Disciplinary | Deforestation study using GRASS GIS                                     | 1   | Beginner                | En       |
+|              | Teledetección, OBIA y series de tiempo                                  | 5   | Beginner - Intermediate | Es       |
+|              | GIS for Designers                                                       | 12  | Beginner - Intermediate | En       |
+|              | GRASS GIS for environmental monitoring and disease ecology applications | 2   | Beginner - Intermediate | En       |
+|              | Processing lidar and UAV point clouds                                   | 1   | Beginner - Intermediate | En       |
+|              | Physically-based hydrologic modeling using GRASS GIS r.topmodel         | 1   | Intermediate            | En       |
+|              | Spatio-temporal data handling and visualization                         | 1   | Intermediate            | En       |
+|              | Ecodiv.earth tutorials                                                  | 16  | Beginner - Advanced     | En       |
+|              | Urban growth modeling with FUTURES                                      | 1   | Advanced                | En       |
 
 ## Acknowledgements
 
