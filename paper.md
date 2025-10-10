@@ -79,34 +79,35 @@ This official collection of tutorials is maintained by the GRASS Development Tea
 
 : Official GRASS tutorials \label{table:core}
 
-| Modules      | Tutorials                                                          | Level        | Language |
-|--------------|--------------------------------------------------------------------|--------------|----------|
-| Integrations | Get started with GRASS GUI                                         | Beginner     | En       |
-|              | Get started with GRASS & Python in Jupyter Notebooks               | Beginner     | En       |
-|              | Get started with GRASS in Google Colab                             | Beginner     | En       |
-|              | Get started with GRASS in Jupyter Notebooks on Windows             | Beginner     | En       |
-|              | Get started with GRASS & R: the rgrass package                     | Advanced     | En       |
-| Core         | Basics of map algebra                                              | Beginner     | En       |
-|              | Making plots with GRASS                                            | Beginner     | En       |
-|              | Visualizing and modeling terrain from DEMs in GRASS                | Beginner     | En & Pt  |
-|              | Introduction to remote sensing with GRASS                          | Beginner     | En       |
-|              | Quick comparison: R and Python GRASS interfaces                    | Intermediate | En       |
-|              | Introduction to time series in GRASS                               | Intermediate | En       |
-|              | Temporal subset, import and export                                 | Intermediate | En       |
-|              | Temporal aggregations                                              | Advanced     | En       |
-|              | Temporal algebra                                                   | Advanced     | En       |
-|              | Temporal accumulation                                              | Advanced     | En       |
-|              | Temporal gap-filling                                               | Advanced     | En       |
-|              | Temporal query with vector data                                    | Advanced     | En       |
-|              | Modeling Movement in GRASS                                         | Advanced     | En & Pt  |
-| Disciplinary | Basic earthworks                                                   | Beginner     | En       |
-|              | Gully modeling                                                     | Beginner     | En       |
-|              | Coastal infrastructure                                             | Beginner     | En       |
-|              | Terrain synthesis                                                  | Intermediate | En       |
-|              | Procedural noise                                                   | Intermediate | En       |
-|              | Hydro-flattening a Digital Elevation Model                         | Intermediate | En       |
-|              | Using GRASS, NumPy, and Landlab for Scientific Modeling            | Intermediate | En       |
-|              | Parallelization of overland flow and sediment transport simulation | Advanced     | En       |
+| Modules         | Tutorials                                                           | Level           | Language     |
+|-----------------|---------------------------------------------------------------------|-----------------|--------------|
+| Integrations    | Get started with GRASS GUI                                          | Beginner        | En           |
+|                 | Get started with GRASS & Python in Jupyter Notebooks                | Beginner        | En           |
+|                 | Get started with GRASS in Google Colab                              | Beginner        | En           |
+|                 | Get started with GRASS in Jupyter Notebooks on Windows              | Beginner        | En           |
+|                 | Get started with GRASS & R: the rgrass package                      | Advanced        | En           |
+| Core            | Basics of map algebra                                               | Beginner        | En           |
+|                 | Making plots with GRASS                                             | Beginner        | En           |
+|                 | Visualizing and modeling terrain from DEMs in GRASS                 | Beginner        | En & Pt      |
+|                 | Introduction to remote sensing with GRASS                           | Beginner        | En           |
+|                 | Quick comparison: R and Python GRASS interfaces                     | Intermediate    | En           |
+|                 | Introduction to time series in GRASS                                | Intermediate    | En           |
+|                 | Temporal subset, import and export                                  | Intermediate    | En           |
+|                 | Temporal aggregations                                               | Advanced        | En           |
+|                 | Temporal algebra                                                    | Advanced        | En           |
+|                 | Temporal accumulation                                               | Advanced        | En           |
+|                 | Temporal gap-filling                                                | Advanced        | En           |
+|                 | Temporal query with vector data                                     | Advanced        | En           |
+|                 | Modeling Movement in GRASS                                          | Advanced        | En & Pt      |
+| Disciplinary    | Basic earthworks                                                    | Beginner        | En           |
+|                 | Gully modeling                                                      | Beginner        | En           |
+|                 | Coastal infrastructure                                              | Beginner        | En           |
+|                 | Terrain synthesis                                                   | Intermediate    | En           |
+|                 | Procedural noise                                                    | Intermediate    | En           |
+|                 | Hydro-flattening a Digital Elevation Model                          | Intermediate    | En           |
+|                 | Using GRASS, NumPy, and Landlab for Scientific Modeling             | Intermediate    | En           |
+|                 | Estimating Wind Fetch                                               | Advanced        | En           |
+|                 | Parallelization of overland flow and sediment transport  simulation | Advanced        | En           |
 
 : Community contributed tutorials \label{table:community}
 
