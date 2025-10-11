@@ -111,23 +111,23 @@ This official collection of tutorials is maintained by the GRASS Development Tea
 
 : Community contributed tutorials \label{table:community}
 
-| Modules      | Tutorials                                                                   | No. | Level     | Language |
-|--------------|-----------------------------------------------------------------------------|-----|-----------|----------|
-| Integrations | Unleash the power of GRASS GIS                                              | 5   | Beg - Adv | En       |
-|              | GRASS for Remote Sensing data processing with Jupyter Notebooks             | 1   | Adv       | En       |
-| Core         | NCSU Geospatial Modeling and Analysis Course                                | 13  | Beg - Int | En       |
-|              | Geoprocessamento com GRASS GIS                                              | 1   | Beg - Int | Pt       |
-|              | Tutoriales de GRASS GIS en grasswiki                                        | 4   | Beg - Int | Es       |
-|              | GISMentors                                                                  | 30  | Beg - Adv | En & Cs  |
-| Disciplinary | Deforestation study using GRASS GIS                                         | 1   | Beg       | En       |
-|              | Teledetección, OBIA y series de tiempo                                      | 5   | Beg - Int | Es       |
-|              | GIS for Designers                                                           | 12  | Beg - Int | En       |
-|              | OpenGeoHub 2019: GRASS GIS for environmental monitoring and disease ecology | 2   | Beg - Int | En       |
-|              | Processing lidar and UAV point clouds                                       | 1   | Beg - Int | En       |
-|              | Physically-based hydrologic modeling using GRASS GIS r.topmodel             | 1   | Int       | En       |
-|              | Spatio-temporal data handling and visualization                             | 1   | Int       | En       |
-|              | Ecodiv.earth tutorials                                                      | 16  | Beg - Adv | En       |
-|              | Urban growth modeling with FUTURES                                          | 1   | Adv       | En       |
+| Modules      | Tutorials                                                       | No. | Level                   | Language |
+|--------------|-----------------------------------------------------------------|-----|-------------------------|----------|
+| Integrations | Unleash the power of GRASS GIS                                  | 5   | Beginner - Advanced     | En       |
+|              | GRASS for Remote Sensing data processing with Jupyter Notebooks | 1   | Advanced                | En       |
+| Core         | NCSU Geospatial Modeling and Analysis Course                    | 13  | Beginner - Intermediate | En       |
+|              | Geoprocessamento com GRASS GIS                                  | 1   | Beginner - Intermediate | Pt       |
+|              | Tutoriales de GRASS GIS en grasswiki                            | 4   | Beginner - Intermediate | Es       |
+|              | GISMentors                                                      | 30  | Beginner - Advanced     | En & Cs  |
+| Disciplinary | Deforestation study using GRASS GIS                             | 1   | Beginner                | En       |
+|              | Teledetección, OBIA y series de tiempo                          | 5   | Beginner - Intermediate | Es       |
+|              | GIS for Designers                                               | 12  | Beginner - Intermediate | En       |
+|              | GRASS GIS for environmental monitoring and disease ecology      | 2   | Beginner - Intermediate | En       |
+|              | Processing lidar and UAV point clouds                           | 1   | Beginner - Intermediate | En       |
+|              | Physically-based hydrologic modeling using GRASS GIS r.topmodel | 1   | Intermediate            | En       |
+|              | Spatio-temporal data handling and visualization                 | 1   | Intermediate            | En       |
+|              | Ecodiv.earth tutorials                                          | 16  | Beginner - Advanced     | En       |
+|              | Urban growth modeling with FUTURES                              | 1   | Advanced                | En       |
 
 ## Acknowledgements
 
