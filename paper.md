@@ -49,7 +49,7 @@ This collection of tutorials is an introduction to the GRASS geospatial processi
 
 As GRASS has grown from its roots as a desktop geographic information system [@Westervelt:2004], it has evolved into a geocomputational engine with many interfaces. As an engine, it can be integrated in geospatial data science pipelines using shell scripting, application programming interfaces, tangible interfaces [@Petrasova:2018], computational notebooks [@Haedrich:2023], cloud computing environments [@Neteler:2019; @White:2023], or high performance computing environments. While GRASS is well documented with a user manual, developer manuals, and a wiki, it lacked official tutorials. Over the years, the community developed many tutorials across different platforms, but as these are independently maintained, many have become outdated and obsolete. The current roadmap for GRASS – established in 2024 – calls for official new tutorials to encourage community growth and demonstrate integrations in data science pipelines. 
 
-The design and implementation of the new official tutorials for GRASSS was based on experience teaching university courses and conference workshops using open educational resources. Over the last decade, the GRASS community has developed many open educational resources, experimenting with delivery via web documents, computational notebooks, and cloud computing services. Online tutorials for GRASS have been built from source in HTML [@Petras:2015], built from Markdown rendered with Hugo, included Jupyter notebooks [@Haedrich:2023], and used cloud computing services such as Google Colab. @Petras:2015 used a modular structure with tabsets to teach the core interfaces for GRASS – the GUI, CLI, and Python API – separating explanatory text introducing geospatial concepts from software specific text for each interface. This scaffolding helps learners to focus on concepts, while building their skills with increasingly complex interfaces. @Haedrich:2023 developed a GRASS–Jupyter integration to incorporate more scripting into a graduate-level course on Geospatial Computing and Simulation. The package extends the existing GRASS Python APIs with data visualization and management tools for the Jupyter environment. The new course materials include Jupyter Notebooks that combine tutorials and assignments, allowing students to write and modify code, interact with examples, and explain their reasoning in markdown, all within a single document. Based on these experiences, our design principles for the new tutorials include teaching geospatial concepts discretely from software specifics to encourage spatial thinking and supporting live coding to encourage computational thinking. 
+The design and implementation of the new official tutorials for GRASS was based on experience teaching university courses and conference workshops using open educational resources. Over the last decade, the GRASS community has developed many open educational resources, experimenting with delivery via web documents, computational notebooks, and cloud computing services. Online tutorials for GRASS have been built from source in HTML [@Petras:2015], built from Markdown rendered with Hugo, included Jupyter notebooks [@Haedrich:2023], and used cloud computing services such as Google Colab. @Petras:2015 used a modular structure with tabsets to teach the core interfaces for GRASS – the GUI, CLI, and Python API – separating explanatory text introducing geospatial concepts from software specific text for each interface. This scaffolding helps learners to focus on concepts, while building their skills with increasingly complex interfaces. @Haedrich:2023 developed a GRASS–Jupyter integration to incorporate more scripting into a graduate-level course on Geospatial Computing and Simulation. The package extends the existing GRASS Python APIs with data visualization and management tools for the Jupyter environment. The new course materials include Jupyter Notebooks that combine tutorials and assignments, allowing students to write and modify code, interact with examples, and explain their reasoning in markdown, all within a single document. Based on these experiences, our design principles for the new tutorials include teaching geospatial concepts discretely from software specifics to encourage spatial thinking, supporting live coding to encourage computational thinking, and using an open source publishing system to build documents from plain text tracked with version control.
 
 # Description
 
@@ -111,23 +111,23 @@ This official collection of tutorials is maintained by the GRASS Development Tea
 
 : Community contributed tutorials \label{table:community}
 
-| Modules      | Tutorials                                                                   | No. | Level                   | Language |
-|--------------|-----------------------------------------------------------------------------|-----|-------------------------|----------|
-| Integrations | Unleash the power of GRASS GIS                                              | 5   | Beginner - Advanced     | En       |
-|              | GRASS for Remote Sensing data processing with Jupyter Notebooks             | 1   | Advanced                | En       |
-| Core         | NCSU Geospatial Modeling and Analysis Course                                | 13  | Beginner - Intermediate | En       |
-|              | Geoprocessamento com GRASS GIS                                              | 1   | Beginner - Intermediate | Pt       |
-|              | Tutoriales de GRASS GIS en grasswiki                                        | 4   | Beginner - Intermediate | Es       |
-|              | GISMentors                                                                  | 30  | Beginner - Advanced     | En & Cs  |
-| Disciplinary | Deforestation study using GRASS GIS                                         | 1   | Beginner                | En       |
-|              | Teledetección, OBIA y series de tiempo                                      | 5   | Beginner - Intermediate | Es       |
-|              | GIS for Designers                                                           | 12  | Beginner - Intermediate | En       |
-|              | OpenGeoHub 2019: GRASS GIS for environmental monitoring and disease ecology | 2   | Beginner - Intermediate | En       |
-|              | Processing lidar and UAV point clouds                                       | 1   | Beginner - Intermediate | En       |
-|              | Physically-based hydrologic modeling using GRASS GIS r.topmodel             | 1   | Intermediate            | En       |
-|              | Spatio-temporal data handling and visualization                             | 1   | Intermediate            | En       |
-|              | Ecodiv.earth tutorials                                                      | 16  | Beginner - Advanced     | En       |
-|              | Urban growth modeling with FUTURES                                          | 1   | Advanced                | En       |
+| Modules      | Tutorials                                                                   | No. | Level     | Language |
+|--------------|-----------------------------------------------------------------------------|-----|-----------|----------|
+| Integrations | Unleash the power of GRASS GIS                                              | 5   | Beg - Adv | En       |
+|              | GRASS for Remote Sensing data processing with Jupyter Notebooks             | 1   | Adv       | En       |
+| Core         | NCSU Geospatial Modeling and Analysis Course                                | 13  | Beg - Int | En       |
+|              | Geoprocessamento com GRASS GIS                                              | 1   | Beg - Int | Pt       |
+|              | Tutoriales de GRASS GIS en grasswiki                                        | 4   | Beg - Int | Es       |
+|              | GISMentors                                                                  | 30  | Beg - Adv | En & Cs  |
+| Disciplinary | Deforestation study using GRASS GIS                                         | 1   | Beg       | En       |
+|              | Teledetección, OBIA y series de tiempo                                      | 5   | Beg - Int | Es       |
+|              | GIS for Designers                                                           | 12  | Beg - Int | En       |
+|              | OpenGeoHub 2019: GRASS GIS for environmental monitoring and disease ecology | 2   | Beg - Int | En       |
+|              | Processing lidar and UAV point clouds                                       | 1   | Beg - Int | En       |
+|              | Physically-based hydrologic modeling using GRASS GIS r.topmodel             | 1   | Int       | En       |
+|              | Spatio-temporal data handling and visualization                             | 1   | Int       | En       |
+|              | Ecodiv.earth tutorials                                                      | 16  | Beg - Adv | En       |
+|              | Urban growth modeling with FUTURES                                          | 1   | Adv       | En       |
 
 ## Acknowledgements
 
