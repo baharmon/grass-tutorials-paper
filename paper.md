@@ -40,7 +40,7 @@ bibliography: paper.bib
 
 This collection of tutorials is an introduction to the GRASS geospatial processing engine. GRASS is an open source computational engine for spatiotemporal data management, analysis, modeling, and simulation [@GRASS; @Neteler:2008]. As an engine that can be integrated in data science pipelines with shell scripting, Python, R, Jupyter, and Colab, there are many ways to use GRASS.  While GRASS already had extensive documentation of individual processing tools, tutorials were needed to introduce the many ways to interface with the tools and combine them into computational workflows (\autoref{fig:figure_1}). These open education tutorials - which cover integrations, core features, and disciplinary applications - were developed as part of an effort to grow the GRASS community. The tutorials are built with Quarto and are deployed as webpages paired with Jupyter computational notebooks. The tutorials are available at https://grass-tutorials.osgeo.org under both the GNU Free Documentation License v1.2 or later and the Creative Commons Attribution-ShareAlike 4.0 International License.
 
-![An example of fractal terrain generation and erosion from a [tutorial](https://grass-tutorials.osgeo.org/content/tutorials/numpy_integration/grass_numpy_integration.html) on scientific modeling with GRASS and Landlab. This tutorial demonstrates a seamless workflow for scientific modeling in Python, showing how gridded data can be passed as arrays between GRASS, NumPy [@Harris:2020], and Landlab [@Barnhart:2020]. \label{fig:figure_1}](figure_1.png){ width=100% }
+![An example of eroded fractal terrain from a [tutorial](https://grass-tutorials.osgeo.org/content/tutorials/numpy_integration/grass_numpy_integration.html) on scientific modeling with GRASS and Landlab. This tutorial demonstrates a seamless workflow for scientific modeling in Python, showing how gridded data can be passed as arrays between GRASS, NumPy [@Harris:2020], and Landlab [@Barnhart:2020]. \label{fig:figure_1}](figure_1.png){ width=100% }
 
 # Statement of Need
 
@@ -74,9 +74,9 @@ This collection of tutorials was published as web documents paired with computat
 
 ## Content
 
-![An example of synthetic terrain generated using map algebra from a [tutorial](https://grass-tutorials.osgeo.org/content/tutorials/map_algebra/basic_map_algebra.html) introducing the basics of map algebra in GRASS. This tutorial demonstrates local algebraic operations using the raster map calculator, focal operations using nearest neighbors analysis, zonal operations using conditional statements with the raster map calculator, and global operations using raster metadata. \label{fig:figure_3}](figure_3.png){ width=100% }
-
 This official collection of tutorials is maintained by the GRASS Development Team as part of the documentation for the GRASS geocomputational engine (\autoref{table:core}). This ensures that tutorials are standardized, undergo rigorous review, and are maintained and updated as GRASS evolves. The website also includes a curated collection of external tutorials that are hosted and maintained by their creators (\autoref{table:community}). 
+
+![An example of synthetic terrain generated using map algebra from a [tutorial](https://grass-tutorials.osgeo.org/content/tutorials/map_algebra/basic_map_algebra.html) introducing the basics of map algebra in GRASS. This tutorial demonstrates local algebraic operations using the raster map calculator, focal operations using nearest neighbors analysis, zonal operations using conditional statements with the raster map calculator, and global operations using raster metadata. \label{fig:figure_3}](figure_3.png){ width=100% }
 
 : Official GRASS tutorials \label{table:core}
 
