@@ -36,11 +36,11 @@ bibliography: paper.bib
 
 ---
 
+![An example of fractal terrain generated with GRASS and eroded with LandLab from a [tutorial](https://grass-tutorials.osgeo.org/content/tutorials/numpy_integration/grass_numpy_integration.html) on scientific modeling. This tutorial demonstrates a seamless workflow for scientific modeling in Python, showing how gridded data can be passed as arrays between GRASS, NumPy [@Harris:2020], and Landlab [@Barnhart:2020]. \label{fig:figure_1}](figure_1.png){ width=100% }
+
 # Summary
 
 This collection of tutorials is an introduction to the GRASS geospatial processing engine. GRASS is an open source computational engine for spatiotemporal data management, analysis, modeling, and simulation [@GRASS; @Neteler:2008]. As an engine that can be integrated in data science pipelines with shell scripting, Python, R, Jupyter, and Colab, there are many ways to use GRASS.  While GRASS already had extensive documentation of individual processing tools, tutorials were needed to introduce the many ways to interface with the tools and combine them into computational workflows (\autoref{fig:figure_1}). These open education tutorials - which cover integrations, core features, and disciplinary applications - were developed as part of an effort to grow the GRASS community. The tutorials are built with Quarto and are deployed as webpages paired with Jupyter computational notebooks. The tutorials are available at https://grass-tutorials.osgeo.org under both the GNU Free Documentation License v1.2 or later and the Creative Commons Attribution-ShareAlike 4.0 International License.
-
-![An example of fractal terrain generated with GRASS and eroded with LandLab from a [tutorial](https://grass-tutorials.osgeo.org/content/tutorials/numpy_integration/grass_numpy_integration.html) on scientific modeling. This tutorial demonstrates a seamless workflow for scientific modeling in Python, showing how gridded data can be passed as arrays between GRASS, NumPy [@Harris:2020], and Landlab [@Barnhart:2020]. \label{fig:figure_1}](figure_1.png){ width=100% }
 
 # Statement of Need
 
@@ -66,7 +66,7 @@ In order to teach a computational approach to thinking about spatiotemporal phen
 * as scaffolded prose and code to structure learning, 
 * and as computable content to teach computational thinking. 
 
-Drawing on the education benefits of computational notebooks [@Barba:2022], the tutorials introduce geocomputational concepts through worked examples that synthesize prose explanations, graphics, and executable code. The tutorials, which range from introductory to advanced, have a modular design for reuse and remixing so that learners can choose their own course of study and teachers can select modules for their lesson plans. The tutorials build in complexity from introductory to core to disciplinary modules. A set of getting-started tutorials introduce different ways to interface with the GRASS engine. The core tutorials cover important concepts such as geovisualization (\autoref{fig:figure_2}), map algebra (\autoref{fig:figure_3}), geospatial modeling, and the temporal framework. Disciplinary tutorials demonstrate applications for GRASS in domains such as climatology, ecology, hydrology, geomorphology. The disciplinary tutorials build engagement by working through applications in the learner’s domain and thus motivate further exploration. Throughout the tutorials, different ways to interface with GRASS are presented as tabs in code blocks, so that learners can work their way through the same tutorial repeatedly using increasingly challenging interfaces – building proficiency first with the graphical user interface (GUI), then with the command line interface (CLI), and finally with the Python or R application programming interfaces (API).
+Drawing on the education benefits of computational notebooks [@Barba:2022], the tutorials introduce geocomputational concepts through worked examples that synthesize prose explanations, graphics, and executable code. The tutorials, which range from introductory to advanced, have a modular design for reuse and remixing so that learners can choose their own course of study and teachers can select modules for their lesson plans. The tutorials build in complexity from introductory to core to disciplinary modules. A set of getting-started tutorials introduce different ways to interface with the GRASS engine. The core tutorials cover important concepts such as geovisualization (\autoref{fig:figure_2}), map algebra (\autoref{fig:figure_3}), geospatial modeling, and the temporal framework. Disciplinary tutorials demonstrate applications for GRASS in domains such as climatology, ecology, hydrology, geomorphology, and terrain generation (\autoref{fig:figure_4}). The disciplinary tutorials build engagement by working through applications in the learner’s domain and thus motivate further exploration. Throughout the tutorials, different ways to interface with GRASS are presented as tabs in code blocks, so that learners can work their way through the same tutorial repeatedly using increasingly challenging interfaces – building proficiency first with the graphical user interface (GUI), then with the command line interface (CLI), and finally with the Python or R application programming interfaces (API).
 
 ![An example of synthetic terrain generated using map algebra from a [tutorial](https://grass-tutorials.osgeo.org/content/tutorials/map_algebra/basic_map_algebra.html) introducing the basics of map algebra in GRASS. This tutorial demonstrates local algebraic operations using the raster map calculator, focal operations using nearest neighbors analysis, zonal operations using conditional statements with the raster map calculator, and global operations using raster metadata. \label{fig:figure_3}](figure_3.png){ width=100% }
 
@@ -74,63 +74,63 @@ Drawing on the education benefits of computational notebooks [@Barba:2022], the 
 
 This collection of tutorials was published as web documents paired with computational notebooks. To reach a broad audience, the tutorials are published as web documents for immediate, easy access via web browsers. When appropriate, web documents are accompanied by a downloadable computational notebook, encouraging  interactivity, engagement, and geocomputational thinking. The tutorials – which are built and deployed using the Quarto scientific publishing system [@Quarto] – are written in Markdown with YAML frontmatter. Tutorials are composed in Markdown for human-readable source code, efficient version control, executable code blocks for different interfaces, rendering in multiple formats, and reproducibility. As this open education project aims to teach different ways to interface with GRASS, executable code for multiple relevant interfaces such as the GUI, CLI, Python, or R can be included in tutorials as tabsets. Once tutorials have been written, they are reviewed by the GRASS Development Team, rendered as web documents and Jupyter notebooks, and deployed to an Open Source Geospatial Foundation website. The source code for the tutorials is built in the GitHub repository https://github.com/OSGeo/grass-tutorials and deployed to the website https://grass-tutorials.osgeo.org using GitHub Actions. 
 
+![An example of fractional Brownian motion from a [tutorial](https://grass-tutorials.osgeo.org//content/tutorials/noise/noise.html) introducing procedural noise in GRASS. This tutorial demonstrates stochastic functions for procedurally generating data. \label{fig:figure_4}](figure_4.png){ width=100% }
+
 ## Content
 
-This official collection of tutorials is maintained by the GRASS Development Team as part of the documentation for the GRASS geocomputational engine (\autoref{table:core}). This ensures that tutorials are standardized, undergo rigorous review, and are maintained and updated as GRASS evolves. The website also includes a curated collection of external tutorials that are hosted and maintained by their creators (\autoref{table:community}). 
+This official collection of tutorials is maintained by the GRASS Development Team as part of the documentation for the GRASS geocomputational engine (\autoref{table:official}). This ensures that tutorials are standardized, undergo rigorous review, and are maintained and updated as GRASS evolves. The website also includes a curated collection of external tutorials that are hosted and maintained by their creators (\autoref{table:external}). 
 
-: Official GRASS tutorials \label{table:core}
+: Official GRASS tutorials \label{table:official}
 
-| Modules      | Tutorials                                               | Level        | Lang.   |
-|--------------|---------------------------------------------------------|--------------|---------|
-| Integrations | Get started with GRASS GUI                              | Beginner     | En      |
-|              | Get started with GRASS & Python in Jupyter Notebooks    | Beginner     | En      |
-|              | Get started with GRASS in Google Colab                  | Beginner     | En      |
-|              | Get started with GRASS in Jupyter Notebooks on Windows  | Beginner     | En      |
-|              | Quick comparison: R and Python GRASS interfaces         | Intermediate | En      |
-|              | Get started with GRASS & R: the rgrass package          | Advanced     | En      |
-| Core         | Basics of map algebra                                   | Beginner     | En      |
-|              | Making plots with GRASS                                 | Beginner     | En      |
-|              | Visualizing and modeling terrain from DEMs in GRASS     | Beginner     | En & Pt |
-|              | Introduction to remote sensing with GRASS               | Beginner     | En      |
-|              | Making thematic maps                                    | Beginner     | En      |
-|              | Introduction to time series in GRASS                    | Intermediate | En      |
-|              | Temporal subset, import and export                      | Intermediate | En      |
-|              | Temporal aggregations                                   | Advanced     | En      |
-|              | Temporal algebra                                        | Advanced     | En      |
-|              | Temporal accumulation                                   | Advanced     | En      |
-|              | Temporal gap-filling                                    | Advanced     | En      |
-|              | Temporal query with vector data                         | Advanced     | En      |
-|              | Modeling movement in GRASS                              | Advanced     | En & Pt |
-| Disciplinary | Basic earthworks                                        | Beginner     | En      |
-|              | Gully modeling                                          | Beginner     | En      |
-|              | Coastal infrastructure                                  | Beginner     | En      |
-|              | Terrain synthesis                                       | Intermediate | En      |
-|              | Procedural noise                                        | Intermediate | En      |
-|              | Hydro-flattening a digital elevation model              | Intermediate | En      |
-|              | Using GRASS, NumPy, and Landlab for scientific modeling | Intermediate | En      |
-|              | fasterRaster: faster raster processing in R Using GRASS | Intermediate | En      |
-|              | Estimating wind fetch                                   | Advanced     | En      |
-|              | Parallelization of overland flow simulation             | Advanced     | En      |
+| Modules      | Tutorials                                               | Level        | Lang. |
+|--------------|---------------------------------------------------------|--------------|-------|
+| Integrations | Get started with GRASS GUI                              | Beginner     | En    |
+|              | Get started with GRASS & Python in Jupyter Notebooks    | Beginner     | En    |
+|              | Get started with GRASS in Google Colab                  | Beginner     | En    |
+|              | Get started with GRASS in Jupyter Notebooks on Windows  | Beginner     | En    |
+|              | Get started with GRASS & R: the rgrass package          | Advanced     | En    |
+| Core         | Basics of map algebra                                   | Beginner     | En    |
+|              | Making plots with GRASS                                 | Beginner     | En    |
+|              | Visualizing and modeling terrain from DEMs in GRASS     | Beginner     | En Pt |
+|              | Introduction to remote sensing with GRASS               | Beginner     | En    |
+|              | Quick comparison: R and Python GRASS interfaces         | Intermediate | En    |
+|              | Introduction to time series in GRASS                    | Intermediate | En    |
+|              | Temporal subset, import and export                      | Intermediate | En    |
+|              | Temporal aggregations                                   | Advanced     | En    |
+|              | Temporal algebra                                        | Advanced     | En    |
+|              | Temporal accumulation                                   | Advanced     | En    |
+|              | Temporal gap-filling                                    | Advanced     | En    |
+|              | Temporal query with vector data                         | Advanced     | En    |
+|              | Modeling movement in GRASS                              | Advanced     | En Pt |
+| Disciplinary | Basic earthworks                                        | Beginner     | En    |
+|              | Gully modeling                                          | Beginner     | En    |
+|              | Coastal infrastructure                                  | Beginner     | En    |
+|              | Terrain synthesis                                       | Intermediate | En    |
+|              | Procedural noise                                        | Intermediate | En    |
+|              | Hydro-flattening a digital elevation model              | Intermediate | En    |
+|              | Using GRASS, NumPy, and Landlab for scientific modeling | Intermediate | En    |
+|              | Estimating wind fetch                                   | Advanced     | En    |
+|              | Parallelization of overland flow simulation             | Advanced     | En    |
 
-: External tutorials \label{table:community}
+: External tutorials \label{table:external}
 
-| Modules      | Tutorials                                                       | No. | Level                   | Lang.   |
-|--------------|-----------------------------------------------------------------|-----|-------------------------|---------|
-| Integrations | Unleash the power of GRASS                                      | 5   | Beginner - Advanced     | En      |
-|              | GRASS for remote sensing data processing with Jupyter Notebooks | 1   | Advanced                | En      |
-| Core         | NCSU geospatial modeling and analysis course                    | 13  | Beginner - Intermediate | En      |
-|              | Geoprocessamento com GRASS                                      | 1   | Beginner - Intermediate | Pt      |
-|              | Tutoriales de GRASS en grasswiki                                | 4   | Beginner - Intermediate | Es      |
-|              | GISMentors                                                      | 30  | Beginner - Advanced     | En & Cs |
-| Disciplinary | Deforestation study using GRASS                                 | 1   | Beginner                | En      |
-|              | Teledetección, OBIA y series de tiempo                          | 5   | Beginner - Advanced     | Es      |
-|              | GIS for designers                                               | 12  | Beginner - Intermediate | En      |
-|              | GRASS for environmental monitoring and disease ecology          | 2   | Beginner - Intermediate | En      |
-|              | Processing lidar and UAV point clouds                           | 1   | Beginner - Intermediate | En      |
-|              | Physically-based hydrologic modeling using GRASS r.topmodel     | 1   | Intermediate            | En      |
-|              | Spatio-temporal data handling and visualization                 | 1   | Intermediate            | En      |
-|              | Ecodiv.earth tutorials                                          | 16  | Beginner - Advanced     | En      |
-|              | Urban growth modeling with FUTURES                              | 1   | Advanced                | En      |
+| Modules      | Tutorials                                                       | No. | Level                   | Lang. |
+|--------------|-----------------------------------------------------------------|-----|-------------------------|-------|
+| Integrations | Unleash the power of GRASS                                      | 5   | Beginner - Advanced     | En    |
+|              | GRASS for remote sensing data processing with Jupyter Notebooks | 1   | Advanced                | En    |
+| Core         | NCSU geospatial modeling and analysis course                    | 13  | Beginner - Intermediate | En    |
+|              | Geoprocessamento com GRASS                                      | 1   | Beginner - Intermediate | Pt    |
+|              | Tutoriales de GRASS en grasswiki                                | 4   | Beginner - Intermediate | Es    |
+|              | GISMentors                                                      | 30  | Beginner - Advanced     | En Cs |
+| Disciplinary | Deforestation study using GRASS                                 | 1   | Beginner                | En    |
+|              | Teledetección, OBIA y series de tiempo                          | 5   | Beginner - Advanced     | Es    |
+|              | GIS for designers                                               | 12  | Beginner - Intermediate | En    |
+|              | GRASS for environmental monitoring and disease ecology          | 2   | Beginner - Intermediate | En    |
+|              | Processing lidar and UAV point clouds                           | 1   | Beginner - Intermediate | En    |
+|              | Physically-based hydrologic modeling using GRASS r.topmodel     | 1   | Intermediate            | En    |
+|              | Spatio-temporal data handling and visualization                 | 1   | Intermediate            | En    |
+|              | Ecodiv.earth tutorials                                          | 16  | Beginner - Advanced     | En    |
+|              | Urban growth modeling with FUTURES                              | 1   | Advanced                | En    |
 
 ## Acknowledgements
 
