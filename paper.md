@@ -134,8 +134,6 @@ This official collection of tutorials is maintained by the GRASS Development Tea
 |              | Ecodiv.earth tutorials                                          | 16  | Beg - Adv | En      |
 |              | Urban growth modeling with FUTURES                              | 1   | Adv       | En      |
 
-\clearpage
-
 ## Acknowledgements
 
 The development of the tutorial platform and the majority of the tutorials presented in this collection were supported by the U.S. National Science Foundation under Award No. [2303651](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2303651). This grant directly funded the development of tutorials and also funded mentor support for community contributors working on tutorial content. Two tutorials received additional partial support from NSF Award No. [2322073](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2322073) granted to Natrx, Inc. Another tutorial was developed with combined support from NSF Award No. 2322073 and USDA NRCS Award No. NR233A750023C043. We thank the GRASS development team and the broader GRASS community for their continued support and contributions to this educational effort.
