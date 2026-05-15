@@ -87,13 +87,14 @@ This official collection of tutorials is maintained by the GRASS Development Tea
 | Integrations | Get started with GRASS GUI                              | Beg   | En      |
 |              | Get started with GRASS & Python in Jupyter Notebooks    | Beg   | En      |
 |              | Get started with GRASS in Google Colab                  | Beg   | En      |
+|              | Getting started with GRASS for Conda                    | Beg   | En      |
 |              | Get started with GRASS in Jupyter Notebooks on Windows  | Beg   | En      |
 |              | Quick comparison: R and Python GRASS interfaces         | Int   | En      |
 |              | Get started with GRASS & R: the rgrass package          | Adv   | En      |
 | Core         | Basics of map algebra                                   | Beg   | En      |
 |              | Making plots with GRASS                                 | Beg   | En      |
-|              | Visualizing and modeling terrain from DEMs in GRASS     | Beg   | En & Pt |
-|              | Introduction to remote sensing with GRASS               | Beg   | En      |
+|              | Visualizing and modeling terrain from DEMs              | Beg   | En & Pt |
+|              | Introduction to remote sensing with GRASS               | Beg   | En & Pt |
 |              | Making thematic maps                                    | Beg   | En      |
 |              | Introduction to time series in GRASS                    | Int   | En      |
 |              | Temporal subset, import and export                      | Int   | En      |
@@ -110,7 +111,7 @@ This official collection of tutorials is maintained by the GRASS Development Tea
 |              | Procedural noise                                        | Int   | En      |
 |              | Hydro-flattening a digital elevation model              | Int   | En      |
 |              | Using GRASS, NumPy, and Landlab for scientific modeling | Int   | En      |
-|              | fasterRaster: faster raster processing in R Using GRASS | Int   | En      |
+|              | fasterRaster: faster raster processing in R using GRASS | Int   | En      |
 |              | Estimating wind fetch                                   | Adv   | En      |
 |              | Parallelization of overland flow simulation             | Adv   | En      |
 
