@@ -117,23 +117,23 @@ This official collection of tutorials is maintained by the GRASS Development Tea
 
 : External tutorials \label{table:external}
 
-| Modules      | Tutorials                                                       | No. | Level     | Lang.   |
-|--------------|-----------------------------------------------------------------|-----|-----------|---------|
-| Integrations | Unleash the power of GRASS                                      | 5   | Beg - Adv | En      |
-|              | GRASS for remote sensing data processing with Jupyter Notebooks | 1   | Adv       | En      |
-| Core         | NCSU geospatial modeling and analysis course                    | 13  | Beg - Int | En      |
-|              | Geoprocessamento com GRASS                                      | 1   | Beg - Int | Pt      |
-|              | Tutoriales de GRASS en grasswiki                                | 4   | Beg - Int | Es      |
-|              | GISMentors                                                      | 30  | Beg - Adv | En & Cs |
-| Disciplinary | Deforestation study using GRASS                                 | 1   | Beg       | En      |
-|              | Teledetección, OBIA y series de tiempo                          | 5   | Beg - Adv | Es      |
-|              | GIS for designers                                               | 12  | Beg - Int | En      |
-|              | GRASS for environmental monitoring and disease ecology          | 2   | Beg - Int | En      |
-|              | Processing lidar and UAV point clouds                           | 1   | Beg - Int | En      |
-|              | Physically-based hydrologic modeling using GRASS r.topmodel     | 1   | Int       | En      |
-|              | Spatio-temporal data handling and visualization                 | 1   | Int       | En      |
-|              | Ecodiv.earth tutorials                                          | 16  | Beg - Adv | En      |
-|              | Urban growth modeling with FUTURES                              | 1   | Adv       | En      |
+| Modules      | Tutorials                                                       | No. | Level   | Lang.   |
+|--------------|-----------------------------------------------------------------|-----|---------|---------|
+| Integrations | Unleash the power of GRASS                                      | 5   | Beg-Adv | En      |
+|              | GRASS for remote sensing data processing with Jupyter Notebooks | 1   | Adv     | En      |
+| Core         | NCSU geospatial modeling and analysis course                    | 13  | Beg-Int | En      |
+|              | Geoprocessamento com GRASS                                      | 1   | Beg-Int | Pt      |
+|              | Tutoriales de GRASS en grasswiki                                | 4   | Beg-Int | Es      |
+|              | GISMentors                                                      | 30  | Beg-Adv | En & Cs |
+| Disciplinary | Deforestation study using GRASS                                 | 1   | Beg     | En      |
+|              | Teledetección, OBIA y series de tiempo                          | 5   | Beg-Adv | Es      |
+|              | GIS for designers                                               | 12  | Beg-Int | En      |
+|              | GRASS for environmental monitoring and disease ecology          | 2   | Beg-Int | En      |
+|              | Processing lidar and UAV point clouds                           | 1   | Beg-Int | En      |
+|              | Physically-based hydrologic modeling using GRASS r.topmodel     | 1   | Int     | En      |
+|              | Spatio-temporal data handling and visualization                 | 1   | Int     | En      |
+|              | Ecodiv.earth tutorials                                          | 16  | Beg-Adv | En      |
+|              | Urban growth modeling with FUTURES                              | 1   | Adv     | En      |
 
 ## Acknowledgements
 
